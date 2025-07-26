@@ -8,25 +8,25 @@ const services = [
   {
     num: '01',
     title: 'Web Development',
-    description: "This is service Page Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate laudantium tempore.eligendi tempore nostrum.",
+    description: "I build high-performance, responsive, and SEO-friendly websites using modern technologies like HTML, CSS, JavaScript, and popular frameworks. From portfolio sites to full-stack applications, I ensure clean code and a seamless user experience.",
     href: ""
   },
   {
     num: '02',
     title: 'AI Integration',
-    description: "This is service Page Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate laudantium tempore.eligendi tempore nostrum.",
+    description: "I integrate intelligent AI solutions into websites and applications to automate tasks, personalize experiences, and improve decision-making using tools like ChatGPT, Python ML models, and third-party APIs.",
     href: ""
   },
   {
     num: '03',
     title: 'UI/UX Design',
-    description: "This is service Page Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate laudantium tempore.eligendi tempore nostrum.",
+    description: "I design intuitive, user-friendly interfaces that enhance user engagement. My designs are based on user research, accessibility standards, and modern aesthetics—ensuring a smooth and impactful digital experience.",
     href: ""
   },
   {
     num: '04',
     title: 'Logo Design',
-    description: "This is service Page Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed cupiditate laudantium tempore.eligendi tempore nostrum.",
+    description: "I craft unique, memorable logos that reflect your brand identity. My design process involves deep understanding of your vision and audience to deliver logos that are simple, scalable, and meaningful.",
     href: ""
   },
 ];

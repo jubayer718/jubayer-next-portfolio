@@ -4,16 +4,27 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaNode
+  FaNode,
+  
+
 } from 'react-icons/fa'
 import {
   SiTailwindcss,
   SiNextdotjs,
+  SiExpress,
+  SiTypescript,
+  SiRedux,
+  SiMongodb,
+  SiMongoose,
+  SiFirebase,
+  SiPostman,
+  SiGit,
+  SiGithub
 } from 'react-icons/si'
 
 const about = {
   title: "About me",
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quam, dolorem quia placeat laborum veniam.",
+  description: "Hi! I'm Jubayer Ahmed a Frontend Web Developer passionate about building responsive, user-friendly, and visually appealing websites.",
   info: [
     {
       fieldName: 'Name',
@@ -135,12 +146,48 @@ const skills = {
       name: "Next.js"
     },
     {
+      icon: <SiTypescript />,
+      name: "Typescript"
+    },
+    {
+      icon: <SiRedux />,
+      name: "Redux"
+    },
+    {
       icon: <SiTailwindcss />,
       name: "Tailwind.css"
     },
     {
       icon: <FaNode />,
       name: "Node.js"
+    },
+    {
+      icon: <SiExpress />,
+      name: "Express.js"
+    },
+    {
+      icon: <SiFirebase />,
+      name: "Firebase"
+    },
+    {
+      icon: <SiPostman />,
+      name: "Postman"
+    },
+    {
+      icon: <SiGit />,
+      name: "Git"
+    },
+    {
+      icon: <SiGithub />,
+      name: "Github"
+    },
+    {
+      icon: <SiMongodb/>,
+      name: "MongoDB"
+    },
+    {
+      icon: <SiMongoose />,
+      name: "Mongoose"
     },
   ]
 }
