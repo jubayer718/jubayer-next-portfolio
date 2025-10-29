@@ -21,17 +21,17 @@ const Photo = () => {
           transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           
         }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten
+          className="w-[298px] h-[290px] xl:w-[498px] xl:h-[500px] mix-blend-lighten
           absolute
-          -top-2
+          -top-1
           ">
           <Image
-            src="/assets/jb.png"
+            src="/assets/jb1.jpg"
             priority
             quality={100}
             fill
             alt="Profile Image"
-            className="object-cover -rotate-4 rounded-full "
+            className="object-contain  rounded-full mix-blend-lighten "
           />
 
         </motion.div>
