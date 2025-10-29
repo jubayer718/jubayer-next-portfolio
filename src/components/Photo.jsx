@@ -26,12 +26,12 @@ const Photo = () => {
           -top-2
           ">
           <Image
-            src="/assets/photo.png"
+            src="/assets/jb.png"
             priority
             quality={100}
             fill
             alt="Profile Image"
-            className="object-contain rounded-full "
+            className="object-cover -rotate-4 rounded-full "
           />
 
         </motion.div>

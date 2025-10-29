@@ -25,6 +25,17 @@ const projects = [
     num: "01",
     category: "Fullstack",
     title:"Project 01",
+    description: "Adoptly is a comprehensive pet adoption platform that connects potential pet owners with animals in need of loving homes. The platform features user authentication, detailed pet profiles, and an intuitive interface for browsing and adopting pets. Built with the fullStack (Next.js, Express.js, Tailwind.css, MongoDB), Adoptly ensures a seamless experience for users looking to find their perfect furry companion.",
+    stack: [{ name: "Next.js" }, { name: "Express.js" },{ name: "ShadCN" }, { name: "Tailwind.css" }, { name: "MongoDB" }],
+    image: '/assets/work/adoptly.png',
+    live: "https://adoptly-team-project.vercel.app/",
+    github: "https://github.com/Mehedi86/adoptly-team-project/tree/development",
+    
+  },
+  {
+    num: "02",
+    category: "Fullstack",
+    title:"Project 02",
     description: "News Fusion is a modern, feature-rich news platform where users can explore the latest articles, trending news, and premium content. The platform supports multiple publishers and provides an engaging user experience with interactive elements.",
     stack: [{ name: "React.js" }, { name: "Express.js" }, { name: "Tailwind.css" }, { name: "MongoDB" }],
     image: '/assets/work/project1.png',
@@ -33,9 +44,9 @@ const projects = [
     
   },
   {
-    num: "02",
+    num: "03",
     category: "Fullstack",
-    title:"Project 02",
+    title:"Project 03",
     description: "BrainBuddies is a fully functional group-study web application designed for collaborative assignment management. Users can create, submit, and review assignments in an organized, secure, and intuitive environment. Built with the MERN stack (MongoDB, Express.js, React, Node.js), the platform is ideal for exam-related activities and academic collaboration.",
     stack: [{ name: "React.js" }, { name: "Express.js" }, { name: "Tailwind.css" }, { name: "MongoDB" }],
     image: '/assets/work/project2.png',
@@ -44,8 +55,8 @@ const projects = [
     
   },
   {
-    num: "03",
-    title:"Project 3",
+    num: "04",
+    title:"Project 4",
     category: "Fullstack",
     description: "This project is a crowdfunding platform designed to help individuals, startups, and communities raise funds for their ideas. Users can create campaigns, contribute to causes they believe in, and track progress—all in a seamless and user-friendly interface.",
     stack: [{ name: "React.js" }, { name: "Express.js" }, { name: "Tailwind.css" }, { name: "MongoDB" }],
@@ -55,8 +66,8 @@ const projects = [
     
   },
   {
-    num: "04",
-    title:"Project 4",
+    num: "05",
+    title:"Project 5",
     category: "Fullstack",
     description: "This is a modern, full-stack tech blog platform built with Next.js and TypeScript, featuring seamless content management, fast performance, and scalable architecture. It uses RTK Query for efficient data fetching and caching, and stores blog posts, users, and metadata in a PostgreSQL database hosted on Neon. Ideal for developers and tech writers looking to publish and manage articles with a clean, responsive interface.",
     stack: [{ name: "Next.js" },{name:"Typescript"},{ name: "Tailwind.css" }, { name: "PSQL" },{name:"RTK query"},{name:"Neon Database"}],
@@ -120,10 +131,10 @@ const Work = () => {
                 {/* button */}
               <div className='flex items-center gap-4'>
                 {/* Live project button */}
-                <Link href={project.live}>
+                <Link className='cursor-pointer' href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group cursor-pointer">
                         <BsArrowUpRight className='text-white text-3xl group-hover:text-[#00ff99]'/>
                       </TooltipTrigger>
                       <TooltipContent>
@@ -133,10 +144,10 @@ const Work = () => {
                 </TooltipProvider>
               </Link>
                 {/* Github project button */}
-                <Link href={project.github}>
+                <Link className='cursor-pointer' href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group cursor-pointer">
                         <BsGithub className='text-white text-3xl group-hover:text-[#00ff99]'/>
                       </TooltipTrigger>
                       <TooltipContent>
