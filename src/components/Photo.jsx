@@ -26,7 +26,7 @@ const Photo = () => {
           -top-1
           ">
           <Image
-            src="/assets/jb1.jpg"
+            src="/assets/jb_pic_pro.png"
             priority
             quality={100}
             fill
